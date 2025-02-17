@@ -35,5 +35,5 @@ jobs:
           build-args: PHP_VERSION=${{ github.event.inputs.php82Version }}
           tags: |
             1alin/php:${{ github.event.inputs.php82Version }}-fpm
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+        #   cache-from: type=gha
+        #   cache-to: type=gha,mode=max
